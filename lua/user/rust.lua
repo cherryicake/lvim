@@ -72,6 +72,15 @@ pcall(function()
       },
     },
   }
+  require("crates").setup {
+    null_ls = {
+      enabled = true,
+      name = "crates.nvim",
+    },
+    popup = {
+      border = "rounded",
+    },
+  }
 end)
 
 -- CHANGED --
