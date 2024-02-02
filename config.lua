@@ -7,6 +7,7 @@
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.plugins = {
   "catppuccin/nvim",
+  "ellisonleao/gruvbox.nvim",
 
   ---------- LSP progress messages ---------------
   {
@@ -17,6 +18,7 @@ lvim.plugins = {
       require("fidget").setup()
     end,
   },
+  "simrat39/symbols-outline.nvim",
 
   ------- rust ---------------
   "simrat39/rust-tools.nvim",
@@ -31,3 +33,6 @@ lvim.plugins = {
 reload 'user/options'
 reload 'user/rust'
 reload 'user/catppuccin'
+reload 'user/gruvbox'
+reload 'user/symbols_outline'
+

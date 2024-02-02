@@ -20,7 +20,7 @@ lvim.builtin.alpha.dashboard.section.header.val = {
   [[⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⢿⣿⣿⠂⠀⠀⠀⠀⠀⢀⣽⣿⣿⣿⣿⣿⣿⣿⣍⠛⠿⣿⣿⣿⣿⣿⣿]],
 }
 
-lvim.colorscheme = "catppuccin"
+lvim.colorscheme = "gruvbox"
 lvim.log.level = "warn"
 lvim.builtin.alpha.active = true
 lvim.reload_config_on_save = true
@@ -29,7 +29,7 @@ lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 lvim.builtin.breadcrumbs.active = true
 lvim.builtin.dap.active = true
-lvim.transparent_window = false
+lvim.transparent_window = true
 
 
 local options = {
